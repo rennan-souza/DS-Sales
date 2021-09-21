@@ -10,3 +10,9 @@ export const formatDate = (date: Date) => {
   //return date.toLocaleString();
   return date.toLocaleDateString();
 }
+
+export const formatDateToServer = (date?: Date) => {
+  if (date) {
+    return date?.toISOString().substring(0, 10);
+  }
+}
