@@ -22,3 +22,18 @@ export type SalesSummaryData = {
   avg: number;
   count: number;
 }
+
+export type SalesByStore = {
+  storeName: string;
+  sum: number;
+}
+
+export type PiChartConfig = {
+  labels: string[];
+  series: number[];
+}
+
+export type SalesByPaymentMEthod = {
+  description: string;
+  sum: number;
+}
