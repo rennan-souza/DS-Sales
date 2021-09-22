@@ -1,5 +1,5 @@
-import { useEffect, useMemo, useState } from 'react';
 import './App.css';
+import { useEffect, useMemo, useState } from 'react';
 import Filter from './components/filter';
 import Header from './components/header';
 import PieChartCard from './components/pie-chart-card';
